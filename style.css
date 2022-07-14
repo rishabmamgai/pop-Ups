@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+.group1 {
+    position: relative;
+    width: 50%;
+    height: 80%;
+    top: 10vh;
+    float: left;
+}
+
+.group2 {
+    position: relative;
+    width: 50%;
+    height: 80%;
+    top: 10vh;
+    float: right;
+}
+
+.box1, .box2 {
+    position: inherit;
+    display: none;
+    width: 60vh;
+    height: 60vh;
+    left: 20%;
+    right: 20%;
+    top: 8vh;
+    color: aqua;
+}
+
+.btn1, .btn2 {
+    height: 6vh;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: springgreen;
+}
+
+#submitBtn1, #submitBtn2 {
+    position: relative;
+    width: 14vh;
+    height: 7vh;
+    top: 8px;
+    border-radius: 5px;
+    background-color: turquoise;
+}
+
+i {
+    background-color: orangered;
+    height: 3vh;
+    width: 3vh;
+    text-align: center;
+    font-size: 3vh;
+    float: right;
+    top: 10px;
+    position: relative;
+    cursor: pointer;
+}
